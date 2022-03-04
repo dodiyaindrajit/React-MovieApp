@@ -1,0 +1,57 @@
+{
+  "name": "apptalemovie",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "start": "npx react-native start",
+    "resetCache": "npx react-native start --reset-cache",
+    "test": "jest",
+    "lint": "eslint .",
+    "pod": "npx pod-install ios",
+    "androidClean": "cd android && ./gradlew clean"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-community/netinfo": "^8.0.0",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/native-stack": "^6.5.0",
+    "@reduxjs/toolkit": "^1.8.0",
+    "axios": "^0.26.0",
+    "fbemitter": "^3.0.0",
+    "fuse.js": "^6.5.3",
+    "react": "17.0.2",
+    "react-native": "^0.67.2",
+    "react-native-config": "^1.4.5",
+    "react-native-fast-image": "^8.5.11",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-html-parser": "^0.1.0",
+    "react-native-htmlview": "^0.16.0",
+    "react-native-i18n": "^2.0.15",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-localize": "^2.1.9",
+    "react-native-raw-bottom-sheet": "^2.2.0",
+    "react-native-reanimated": "^1.13.3",
+    "react-native-root-toast": "^3.3.0",
+    "react-native-safe-area-context": "^3.4.0",
+    "react-native-screens": "^3.11.1",
+    "react-native-vector-icons": "^9.1.0",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/runtime": "^7.17.2",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.68.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

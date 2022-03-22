@@ -28,10 +28,12 @@
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>localhost</key>
+			<key>tvmaze.com</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
 			</dict>
 		</dict>
 	</dict>
